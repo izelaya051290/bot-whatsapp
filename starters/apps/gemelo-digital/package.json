@@ -1,0 +1,20 @@
+{
+    "name": "gemelo-digital",
+    "version": "1.0.0",
+    "description": "Gemelo digital en WhatsApp: responde con tu personalidad usando Claude",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "probar": "node probar.js"
+    },
+    "dependencies": {
+        "@anthropic-ai/sdk": "^1.12.0",
+        "@bot-whatsapp/bot": "latest",
+        "@bot-whatsapp/database": "latest",
+        "@bot-whatsapp/portal": "latest",
+        "@bot-whatsapp/provider": "latest",
+        "@whiskeysockets/baileys": "^6.4.0",
+        "dotenv": "^16.4.5"
+    },
+    "license": "ISC"
+}
